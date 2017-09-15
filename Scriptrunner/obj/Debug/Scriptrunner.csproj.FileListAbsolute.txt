@@ -1,0 +1,9 @@
+C:\Users\Darren\Documents\GitHub\scriptrunner\Scriptrunner\Scriptrunner\bin\Debug\Scriptrunner.exe.config
+C:\Users\Darren\Documents\GitHub\scriptrunner\Scriptrunner\Scriptrunner\bin\Debug\Scriptrunner.exe
+C:\Users\Darren\Documents\GitHub\scriptrunner\Scriptrunner\Scriptrunner\bin\Debug\Scriptrunner.pdb
+C:\Users\Darren\Documents\GitHub\scriptrunner\Scriptrunner\Scriptrunner\obj\Debug\Scriptrunner.csprojResolveAssemblyReference.cache
+C:\Users\Darren\Documents\GitHub\scriptrunner\Scriptrunner\Scriptrunner\obj\Debug\Scriptrunner.Form1.resources
+C:\Users\Darren\Documents\GitHub\scriptrunner\Scriptrunner\Scriptrunner\obj\Debug\Scriptrunner.Properties.Resources.resources
+C:\Users\Darren\Documents\GitHub\scriptrunner\Scriptrunner\Scriptrunner\obj\Debug\Scriptrunner.csproj.GenerateResource.Cache
+C:\Users\Darren\Documents\GitHub\scriptrunner\Scriptrunner\Scriptrunner\obj\Debug\Scriptrunner.exe
+C:\Users\Darren\Documents\GitHub\scriptrunner\Scriptrunner\Scriptrunner\obj\Debug\Scriptrunner.pdb
