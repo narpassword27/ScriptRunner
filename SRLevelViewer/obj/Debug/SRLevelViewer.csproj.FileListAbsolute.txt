@@ -8,3 +8,12 @@ C:\Users\bhay1\Documents\GitHub\ScriptRunner\SRLevelViewer\obj\Debug\SRLevelView
 C:\Users\bhay1\Documents\GitHub\ScriptRunner\SRLevelViewer\obj\Debug\SRLevelViewer.csproj.CoreCompileInputs.cache
 C:\Users\bhay1\Documents\GitHub\ScriptRunner\SRLevelViewer\obj\Debug\Scriptrunner.exe
 C:\Users\bhay1\Documents\GitHub\ScriptRunner\SRLevelViewer\obj\Debug\Scriptrunner.pdb
+C:\Users\Darren\Documents\GitHub\ScriptRunner\SRLevelViewer\bin\Debug\Scriptrunner.exe.config
+C:\Users\Darren\Documents\GitHub\ScriptRunner\SRLevelViewer\bin\Debug\Scriptrunner.exe
+C:\Users\Darren\Documents\GitHub\ScriptRunner\SRLevelViewer\bin\Debug\Scriptrunner.pdb
+C:\Users\Darren\Documents\GitHub\ScriptRunner\SRLevelViewer\obj\Debug\SRLevelViewer.csprojResolveAssemblyReference.cache
+C:\Users\Darren\Documents\GitHub\ScriptRunner\SRLevelViewer\obj\Debug\Scriptrunner.Form1.resources
+C:\Users\Darren\Documents\GitHub\ScriptRunner\SRLevelViewer\obj\Debug\Scriptrunner.Properties.Resources.resources
+C:\Users\Darren\Documents\GitHub\ScriptRunner\SRLevelViewer\obj\Debug\SRLevelViewer.csproj.GenerateResource.Cache
+C:\Users\Darren\Documents\GitHub\ScriptRunner\SRLevelViewer\obj\Debug\Scriptrunner.exe
+C:\Users\Darren\Documents\GitHub\ScriptRunner\SRLevelViewer\obj\Debug\Scriptrunner.pdb

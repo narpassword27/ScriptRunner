@@ -21,17 +21,52 @@ namespace Scriptrunner
         {
             Graphics l = e.Graphics;
             Pen p = new Pen(Color.Cyan, 1);
-            //l.DrawLine(p, 50, 50, 200, 200);
-            l.DrawEllipse(p, 250, 250, 100, 100);
-            l.DrawEllipse(p, 225, 225, 150, 150);
-            l.DrawEllipse(p, 200, 200, 200, 200);
-            l.DrawEllipse(p, 175, 175, 250, 250);
-            l.DrawEllipse(p, 150, 150, 300, 300);
-            l.DrawEllipse(p, 125, 125, 350, 350);
-            l.DrawEllipse(p, 100, 100, 400, 400);
-            
+
+            int[] octoSizes = { 300, 230, 170, 120, 80, 50, 30 };
+
+            var octoPoints = octoSizes.Select(GetOctogon);
+
+            var lines = Enumerable.Range(0,8).Select(i => octoPoints.Select(arr => arr[i]).ToArray());
+
+
+
+            foreach (var octogon in octoPoints)
+            {
+                l.DrawPolygon(p, octogon);
+            }
+
+            foreach (var line in lines)
+            {
+                l.DrawLines(p, line);
+            }
 
             l.Dispose();
+        }
+
+        private Point[] GetOctogon(int radius)
+        {
+            List<Point> points = new List<Point>();
+            float step = 45.0f;
+
+            float angle = 22.5f;
+            for (double i = 22.5; i < 22.5 + 360.0; i += step)
+            {
+                points.Add(DegreesToXY(angle, radius, new Point(290,280)));
+                angle += step;
+            }
+
+            return points.ToArray();
+        }
+
+        private Point DegreesToXY(float degrees, float radius, Point origin)
+        {
+            Point xy = new Point();
+            double radians = degrees * Math.PI / 180.0;
+
+            xy.X = (int)(Math.Cos(radians) * radius + origin.X);
+            xy.Y = (int)(Math.Sin(-radians) * radius + origin.Y);
+
+            return xy;
         }
     }
 }
