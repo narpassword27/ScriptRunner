@@ -42,9 +42,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Game1.cs" />
-    <Compile Include="Player.cs" />
+    <Compile Include="Characters\Player.cs" />
+    <Compile Include="Interfaces\ControlInterface.cs" />
+    <Compile Include="Interfaces\DisplayInterface.cs" />
+    <Compile Include="LevelPieces\Segment.cs" />
+    <Compile Include="LevelPieces\Slice.cs" />
+    <Compile Include="LevelPieces\Stage.cs" />
+    <Compile Include="Management\GameOptions.cs" />
+    <Compile Include="Management\LevelNavigator.cs" />
+    <Compile Include="Management\StageManager.cs" />
+    <Compile Include="Management\StartMenu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\Enums.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
